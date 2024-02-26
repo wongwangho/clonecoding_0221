@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>라이프스타일 슈퍼앱, 오늘의집</title>
     <link rel="stylesheet " href="house.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script defer src="house.js"></script>
@@ -32,9 +32,11 @@
     </style>
 </head>
 <body>
+
+    <!-- 사진마다 마우스 이벤트 사용 -->
     <header>  
         <!-- position 상단에 고정 -->
-        <div class="contatiner" style="height: 81px;">
+        <div >
             <div><a class="e18vf7w31 css-q02d8l" aria-label="오늘의집 로고" href="/"><svg class="css-1qa5cvy" xmlns="http://www.w3.org/2000/svg" width="74" height="30" fill="none" viewBox="0 0 74 30"><path fill="currentColor" fill-rule="evenodd" d="M14.2 25.17H9.28V20.7a1.45 1.45 0 00-2.9 0v4.47H1.44a1.45 1.45 0 100 2.9H14.2a1.45 1.45 0 000-2.9zM4.5 9.15c0-4.6 2.08-5.28 3.33-5.28 1.24 0 3.33.69 3.33 5.28v.36c0 4.6-2.09 5.28-3.33 5.28-1.25 0-3.34-.69-3.34-5.28v-.36zm3.33 8.54c3.84 0 6.23-3.13 6.23-8.18v-.36c0-5.05-2.39-8.18-6.23-8.18-3.85 0-6.24 3.13-6.24 8.18v.36c0 5.05 2.39 8.18 6.24 8.18zM33.37 10.35H17.81a1.45 1.45 0 000 2.9h15.56a1.45 1.45 0 100-2.9zM31.82 25.84c-7.08 1.84-9.45.8-10.14.26-.45-.35-.65-.8-.65-1.48v-.87h10.25c.8 0 1.46-.65 1.46-1.45v-5.08c0-.8-.65-1.45-1.46-1.45h-11.7a1.45 1.45 0 100 2.9h10.25v2.18H19.57c-.8 0-1.45.65-1.45 1.45v2.32a4.6 4.6 0 001.78 3.78c1.2.92 2.94 1.39 5.21 1.39 2.05 0 4.54-.38 7.44-1.13a1.45 1.45 0 10-.73-2.82zM20.3 7.83h10.82a1.45 1.45 0 100-2.9h-9.36V1.44a1.45 1.45 0 10-2.9 0v4.93c0 .8.65 1.45 1.45 1.45z" clip-rule="evenodd"></path><rect width="3" height="15" x="70" fill="currentColor" rx="1.5"></rect><path fill="currentColor" fill-rule="evenodd" d="M64.5 13.28a1.45 1.45 0 002.73-1c-.05-.13-1-2.68-3.38-4.5l3.7-4.1a1.45 1.45 0 00-1.09-2.42h-9.05a1.45 1.45 0 100 2.9h5.8l-6.88 7.64a1.45 1.45 0 102.16 1.95l3.41-3.8a8.02 8.02 0 012.6 3.33zM69.56 26.52h-7.01a.82.82 0 01-.82-.82v-1.95h8.65v1.95c0 .45-.37.82-.82.82zm2.27-9.37c-.8 0-1.45.65-1.45 1.45v2.25h-8.65V18.6a1.45 1.45 0 10-2.9 0v7.1a3.72 3.72 0 003.72 3.72h7.01a3.72 3.72 0 003.72-3.72v-7.1c0-.8-.65-1.45-1.45-1.45zM42.46 3.87c2.22 0 2.33 4.24 2.33 5.08 0 .85-.11 5.09-2.33 5.09-2.21 0-2.32-4.24-2.32-5.09 0-.84.11-5.08 2.32-5.08zm0 13.07c1.76 0 3.23-.93 4.14-2.62.71-1.34 1.1-3.2 1.1-5.37 0-2.16-.39-4.02-1.1-5.36A4.59 4.59 0 0042.46.97c-1.75 0-3.22.93-4.13 2.62-.72 1.34-1.1 3.2-1.1 5.36 0 2.17.38 4.03 1.1 5.37a4.59 4.59 0 004.13 2.62z" clip-rule="evenodd"></path><path fill="currentColor" fill-rule="evenodd" d="M51.4.49c-.8 0-1.45.65-1.45 1.45v17.78c-1.93.6-5.75 1.12-10.38 1.12h-2.2a1.45 1.45 0 000 2.91h2.2c2.64 0 7.21-.23 10.38-1.02v4.84a1.45 1.45 0 002.9 0V1.94c0-.8-.65-1.45-1.45-1.45z" clip-rule="evenodd"></path></svg></a></div>
         </div>
         <div>
@@ -158,17 +160,99 @@
             
         </div>
     </div>
+    
+    <div>
+        <div> <strong>
+            오늘의 기획전
+        </strong>
+            <div>
+                더보기
+            </div>
+        </div>
 
     <div>
-        
+        <ul>
+            <li>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/168144815741309775.png?w=256&amp;h=170.66666666666666&amp;c=c" 
+                <div>
+                    <p>전시,반품, 스크래치 득템의 기회!</p>
+                    <p>빠른 품절! 리퍼마켓 ~90%
+
+                    </p>
+                </div>
+            </li>
+            <li>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/170887306998560835.png?w=256&amp;h=170.66666666666666&amp;c=c" 
+                <div>
+                        <p>
+                            전상품 무료배송, 요일마다 바뀌는 파격특가 장보기!
+                        </p>
+                        <p>오픈런딜</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/168388854027804620.jpg?w=256&amp;h=170.66666666666666&amp;c=c" 
+                <div>
+                    <p>오늘의 집 큐레이션 편집샵 오! 굿즈</p>
+                    <p>오직 여기서만, O!Goods</p>
+                </div>
+            </li>
+            <li>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/exhibitions/cover_image/169416553917270384.png?w=256&amp;h=170.66666666666666&amp;c=c" 
+                <div>
+                    <p>최대 25만원 SAVE</p>
+                    <p>
+                        0원한 특급패스, 오늘의집 배송!
+                    </p>
+                </div>
+            </li>
+        </ul>
     </div>
         
-        
-        
-        
-        
-        
-        
-        
-    </body>
+
+    <div>   <strong>베스트</strong>
+        <div>
+            더보기
+        </div>
+    </div>
+
+    <div>
+        <ul>
+            <li>전체</li>
+            <li>봄맞이</li>
+            <li>새학기 준비</li>
+            <li>가구</li>
+            <li>패브릭</li>
+            <li>가전.디지털</li>
+            <li>주방용품</li>
+            <li>식품</li>
+            <li>데코.식물</li>
+            <li>조명</li>
+            <li>수납.정리</li>
+            <li>생활용품</li>
+            <li>생필품</li>
+            <li>유아.아동</li>
+            <li>반려동물</li>
+
+        </ul>
+    </div>
+    
+    <div>
+        <div>
+            <img class="image" alt="" src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/162303132447303472.jpeg?"
+        </div>
+
+        <!-- h1태그에 span넣고 
+        span안에 span두개 세일 가격
+        p태그 리뷰~~
+        span 특가 -->
+
+    </div>
+    
+    
+    
+    
+    
+</div>
+</body>
     </html>
